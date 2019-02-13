@@ -19,6 +19,10 @@ h1{
   font-size: 32px;
   letter-spacing: 8px;
 }
+#name {
+  margin: 0;
+  padding-bottom: 8px;
+}
 #name img {
   width: 100%;
 }
