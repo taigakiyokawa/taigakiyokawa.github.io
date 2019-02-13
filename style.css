@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+header, footer {
+  background-color: #1c1c1c;
+  border: none;
+}
+body {
+  margin: 0;
+  color: #FCFAF2;
+  background-color: #2b2b2b;
+  font-family: 'Noto Serif JP', serif;
+}
+p, li {
+  font-size: 24px;
+}
+h1{
+  font-size: 48px;
+  font-weight: 900;
+}
+h2  {
+  font-size: 32px;
+}
+.container {
+  text-align: center;
+}
+.bg {
+  background-image: url(./image/Fugaku36_bg.png);
+  background-size: cover;
+  background-position: center;
+}
+.introduction  {
+  padding: 64px 0 40px;
+}
+.container h1, .container h2 {
+  border-bottom: solid 4px #c9171e;
+  display: inline-block;
+}
+img.icon {
+  height: 160px;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  display: inline-block;
+  padding: 0 16px;
+  /* padding: 全部
+  padding: 上下　左右
+  padding: 上 左右 下
+  padding: 上 右 下 左 */
+
+  /* padding-top
+  padding-left
+  padding-right
+  padding-bottom */
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 32px;
+}
+a:visited {
+  color: #FCFAF2;
+}
+
+.fab {
+  font-size: 48px;
+}
+.account {
+  margin-bottom: 16px;
+}
+footer {
+  position: relative;
+  height: 240px;
+}
+footer h1 {
+  position: absolute;
+  right: 16px;
+  bottom: 8px;
+}
+
+header h2 {
+  margin: 0;
+  padding: 8px 0;
+  padding-left: 16px;
+  border-bottom: solid 2px #FCFAF2;
+}
