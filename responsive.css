@@ -1,11 +1,12 @@
 @media (max-width: 960px) {
   .container {
-    padding-left: 0 8px;
+    padding: 0 16px;
   }
 }
 
 @media (min-width: 959px) {
   .container {
     padding-left: 62.1vw;
+    padding-right: 16px;
   }
 }
