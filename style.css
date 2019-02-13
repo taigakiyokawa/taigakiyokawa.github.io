@@ -13,26 +13,28 @@ body {
 }
 p, li {
   font-size: 24px;
+  letter-spacing: 2px;
 }
 h1{
   font-size: 48px;
-  font-weight: 900;
+  letter-spacing: 8px;
 }
 h2  {
   font-size: 32px;
+  letter-spacing: 8px;
 }
 .container {
-  text-align: center;
-}
-.bg {
+  text-align: left;
+  padding-left: 62.1vw;
   background-image: url(./image/Fugaku36_bg.png);
   background-size: cover;
   background-position: center;
+  height: 100vh;
 }
 .introduction  {
   padding: 64px 0 40px;
 }
-.container h1, .container h2 {
+.container h2 {
   border-bottom: solid 4px #c9171e;
   display: inline-block;
 }
@@ -47,22 +49,14 @@ li {
 ul {
   display: inline-block;
   padding: 0 16px;
-  /* padding: 全部
-  padding: 上下　左右
-  padding: 上 左右 下
-  padding: 上 右 下 左 */
-
-  /* padding-top
-  padding-left
-  padding-right
-  padding-bottom */
   text-align: left;
 }
 
 a {
+  color: #FCFAF2;
   text-decoration: none;
   display: inline-block;
-  margin: 0 32px;
+  margin-right: 40px;
 }
 a:visited {
   color: #FCFAF2;
@@ -70,9 +64,6 @@ a:visited {
 
 .fab {
   font-size: 48px;
-}
-.account {
-  margin-bottom: 16px;
 }
 footer {
   position: relative;
