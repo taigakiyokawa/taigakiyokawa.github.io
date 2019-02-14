@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 header, footer {
   background-color: #1c1c1c;
@@ -16,15 +18,15 @@ p, li {
   letter-spacing: 2px;
 }
 h1{
-  font-size: 32px;
+  font-size: 24px;
   letter-spacing: 8px;
-}
-#name {
   margin: 0;
-  padding-bottom: 8px;
+  padding-bottom: 32px;
 }
-#name img {
+.name img {
   width: 100%;
+  max-width: 400px;
+  padding-bottom: 8px;
 }
 h2  {
   font-size: 24px;
@@ -36,13 +38,13 @@ h2  {
   background-image: url(./image/Fugaku36_bg.png);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 150vh;
 }
 .introduction  {
-  padding: 24px 0 40px;
+  padding: 32px 0 40px;
 }
 .container h2 {
-  border-bottom: solid 4px #c9171e;
+  border-bottom: solid 2px #c9171e;
   display: inline-block;
 }
 img.icon {
@@ -73,19 +75,77 @@ a:visited {
 .fab, .fas {
   font-size: 40px;
 }
-footer {
-  position: relative;
-  height: 240px;
-}
-footer h1 {
-  position: absolute;
-  right: 16px;
-  bottom: 8px;
-}
 
-header h2 {
-  margin: 0;
-  padding: 8px 0;
-  padding-left: 16px;
-  border-bottom: solid 2px #FCFAF2;
+
+
+
+
+/* tab style */
+.tab_wrap {
+  width:100%; 
+}
+input[type="radio"]{
+  display:none;
+}
+.tab_area{
+  max-width: 400px;
+  margin-right: 16px;
+}
+.tab_area label {
+  width:calc(100%/2);
+  display:inline-block; 
+  padding:12px 0; 
+  color:#656765; 
+  /* background:#ddd;  */
+  text-align:center; 
+  font-size:32px; 
+  cursor:pointer; 
+  transition:ease 0.2s opacity;
+}
+.tab_area label:hover{
+  opacity:0.5;
+}
+.panel_area{
+  background: rgba(28, 28, 28, 0.5);
+}
+.tab_panel{
+  margin-top: 16px;
+  padding: 8px 16px 40px;
+  width:100%;
+  display:none;
+}
+.tab_panel p{
+  font-size:16px; 
+  letter-spacing:1px; 
+}
+ 
+#tab1:checked ~ .tab_area .tab1_label{
+  color:#FCFAF2;
+  border-bottom: solid 4px #c9171e;
+  font-weight: 900;
+}
+#tab1:checked ~ .panel_area #panel1{
+  display:block;
+}
+#tab2:checked ~ .tab_area .tab2_label{
+  color:#FCFAF2;
+  border-bottom: solid 4px #c9171e;
+  font-weight: 900;
+}
+#tab2:checked ~ .panel_area #panel2{
+  display:block;
+}
+/* #tab3:checked ~ .tab_area .tab3_label{
+  background:#fff; color:#000;
+}
+#tab3:checked ~ .panel_area #panel3{
+  display:block;
+} */
+
+
+.works a {
+  background: #c9171e;
+}
+.works img {
+  width: 100%;
 }

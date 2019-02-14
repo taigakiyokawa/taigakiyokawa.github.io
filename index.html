@@ -12,7 +12,10 @@
 <body>
   <div class="container">
     <div class="introduction">
-      <h1 id="name"><img src="./image/name.svg" alt="清川 太雅"></h1>
+      <div class="name">
+        <img src="./image/name.svg" alt="清川 太雅">
+        <h1>TAIGA KIYOKAWA</h1>
+      </div>
       <div class="contact">
         <a href="https://github.com/taigakiyokawa">
           <span class="fab fa-github"></span>
@@ -28,33 +31,76 @@
         </a>
       </div>
     </div>
-    <div class="bio">
-      <div>
-        <h2>略歴</h2>
+    <div class="tab_wrap">
+      <input id="tab1" type="radio" name="tab_btn" checked>
+      <input id="tab2" type="radio" name="tab_btn">
+      <input id="tab3" type="radio" name="tab_btn">
+      
+      <div class="tab_area">
+        <label class="tab1_label" for="tab1">概要</label><label class="tab2_label" for="tab2">実績</label>
+        <!-- <label class="tab3_label" for="tab3">tab3</label> -->
       </div>
-      <ul class="date">
-        <li>1998/01/27</li>
-        <li>2013/04/05</li>
-        <li>2018/03/18</li>
-        <li>2018/04/04</li>
-      </ul>
-      <ul class="event">
-        <li>生誕</li>
-        <li>茨城高専 入学</li>
-        <li>同校 卒業</li>
-        <li>九州工業大学 入学</li>
-      </ul>
-    </div>
-    <div class="hobby">
-      <div>
-        <h2>趣味</h2>
+      <div class="panel_area">
+        <div id="panel1" class="tab_panel">
+          <div class="bio">
+            <ul>
+              <li>九州工業大学 情報工学部 3年</li>
+              <li>学生団体P&D所属</li>
+              <li>デザイナー・エンジニア見習い</li>
+              <li>茨城から福岡まで約1,200km運転してきた男</li>
+            </ul>
+            <div class="history">
+              <div><h2>略歴</h2></div>
+              <ul class="date">
+                <li>1998/01/27</li>
+                <li>2013/04/05</li>
+                <li>2018/03/18</li>
+                <li>2018/04/04</li>
+              </ul>
+              <ul class="event">
+                <li>生誕</li>
+                <li>茨城高専 入学</li>
+                <li>同校 卒業</li>
+                <li>九州工業大学 入学</li>
+              </ul>
+            </div>
+          </div>
+          <div class="hobby">
+            <div>
+              <h2>趣味</h2>
+            </div>
+              <ul>
+                <li>映画・海外ドラマ鑑賞</li>
+                <li>ゲーム</li>
+                <li>アメリカン・コミックス</li>
+              </ul>
+          </div>
+        </div>
+        <div id="panel2" class="tab_panel">
+            <div class="works">
+              <div class="otokomeshi">
+                <h2><img src="./image/logo.svg" alt="魁!! 漢飯" class="otokomeshi_logo"></h2>
+              </div>
+              <p>漢向け超簡単料理共有Webアプリ. プレゼン資料は<a href="https://speakerdeck.com/taigakiyokawa/otokomeshi">こちら</a></p>
+              <img src="./image/otokomeshi_image_ver2.png" alt="">
+              <ul>
+                <li>受賞歴</li>
+                <li>九州アプリチャレンジキャラバン2018: 最優秀賞, サイバーエージェント賞</li>
+                <li>福岡ビジネス・デジタル・コンテンツ賞2019: 優秀賞, KBC賞, DLE賞</li>
+              </ul>
+              <div class="poster">
+                <h2>九工大アプリポスター</h2>
+                <p>P&Dが開発した九工大生向け学生情報ポータルアプリの告知ポスターデザイン</p>
+                <img src="./image/kyutech_app_poster_kiyo.png" alt="">
+              </div>
+            </div>
+        </div>
+        <!-- <div id="panel3" class="tab_panel">
+          <p>panel3</p>
+        </div> -->
       </div>
-        <ul>
-          <li>映画・海外ドラマ鑑賞</li>
-          <li>ゲーム</li>
-          <li>アメリカン・コミックス</li>
-        </ul>
     </div>
+    
   </div>
 </body>
 </html>
