@@ -1,0 +1,17 @@
+$padding-min: 1;
+$padding-max: 100;
+
+@for $i from $padding-min through $padding-max {
+  .u-pt#{$i} {
+      padding-top: #{$i}px;
+    }
+  .u-pr#{$i} {
+      padding-right: #{$i}px;
+  }
+  .u-pb#{$i} {
+      padding-bottom: #{$i}px;
+  }
+  .u-pl#{$i} {
+      padding-left: #{$i}px;
+  }
+}
