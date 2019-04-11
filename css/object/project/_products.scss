@@ -20,6 +20,10 @@
       max-width: 500px;
       text-align: center;
       
+      .fab {
+        font-size: 2rem;
+        margin: 8px 16px;
+      }
     }
 
     &__achievements {
@@ -43,6 +47,7 @@
       text-align: center;
       img {
         height: 64px;
+        margin: 24px;
       }
     }
   }

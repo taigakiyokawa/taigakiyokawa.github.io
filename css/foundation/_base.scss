@@ -6,15 +6,23 @@
 body {
   background-color: #1C1C1C;
   color: $text;
+  font-family: 'M PLUS 1p', sans-serif;
+  
 }
 
 a {
   color: #f8ab17;
+  font-weight: bold;
   &:visited {
     color: #f8ab17;
   }
 }
 
-p {
+p, li {
   letter-spacing: 0.1rem;
+  line-height: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 0.2rem;
 }
