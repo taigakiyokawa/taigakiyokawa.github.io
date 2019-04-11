@@ -1,0 +1,49 @@
+.p-products {
+  width: 100%;
+
+  &-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin: 40px 0;
+
+    img.product {
+      // padding: 24px;
+      width: 100%;
+      max-width: 800px;
+      
+    }
+    &__description {
+      margin: auto 32px;
+      max-width: 500px;
+      text-align: center;
+      
+    }
+
+    &__achievements {
+      text-align: center;
+      padding-top: 28px;
+      h3 {
+        font-size: 1.6rem;
+        margin: 16px 0;
+      }
+      ul {
+        list-style: none;
+        margin: 12px 0 24px;
+        li {
+          margin: 8px 0;
+        }
+      }
+
+    }
+
+    &__badge {
+      text-align: center;
+      img {
+        height: 64px;
+      }
+    }
+  }
+}

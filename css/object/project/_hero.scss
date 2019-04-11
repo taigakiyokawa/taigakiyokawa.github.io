@@ -1,0 +1,20 @@
+.p-hero {
+  height: 100Vh;
+  position: relative;
+  &__headline {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+  }
+  &__name {
+    font-size: 2.0rem;
+    text-align: center;
+    padding-bottom: 16px;
+  }
+  &__links {
+    font-size: 1.8rem;
+    text-align: center;
+    letter-spacing: 1.2rem;
+  }
+}
