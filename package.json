@@ -7,14 +7,16 @@
   "license": "MIT",
   "devDependencies": {
     "auto-prefixer": "^0.4.2",
-    "browser-sync": "^2.26.3",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5"
+    "gulp-sass": "^4.0.2"
   },
   "scripts": {
     "gulp": "gulp",
     "watch": "gulp watch"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp-sourcemaps": "^2.6.5"
   }
 }
