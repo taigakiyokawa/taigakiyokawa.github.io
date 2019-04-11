@@ -16,7 +16,7 @@ gulp.task("default", function() {
         // Sassのコンパイルを実行
         .pipe(
           sass({
-            outputStyle: "expanded"
+            outputStyle: "compressed"
           })
             // Sassのコンパイルエラーを表示
             // (これがないと自動的に止まってしまう)
