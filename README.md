@@ -4,18 +4,23 @@
 - [Twitter](https://twitter.com/tkiyo127)
 
 ## About
-- 九州工業大学情報工学部4年
-- 茨城高専出身
+- 清川 太雅
+- 1998/01/27 生まれ
+- 九州工業大学 情報工学部 4年
+- 茨城高専 出身
 - [P&D](https://www.planningdev.com/) / [stairs](https://kyutech-stairs.github.io/stairs.github.io/) 代表
-- 茨城から福岡まで約1,200km を車できた男
+- 茨城から福岡まで約1,200km を車で来た男
 
 ## Products
 ### 魁!!漢飯
 - [GitHub](https://github.com/taigakiyokawa/otokomeshi)
 - [YouTube](https://youtu.be/CLk-Jq0NeXM)
+
 3人チームで開発した漢向け超簡単料理共有Webアプリです。ユーザーは画像1枚調理法40文字の制限で自作のウルトラ簡単料理「漢飯」を投稿し、投稿数といいね数に応じた称号を獲得して真の漢を目指します。
-  現在公開停止中。
-  コンテスト出場時のプレゼン資料は[こちら](https://speakerdeck.com/taigakiyokawa/otokomeshi)
+
+現在公開停止中。
+
+コンテスト出場時のプレゼン資料は[こちら](https://speakerdeck.com/taigakiyokawa/otokomeshi)
 
 #### Achievements
 - [九州アプリチャレンジキャラバン2018](https://challecara.hatenablog.com/entry/2018/12/12/005721)
@@ -32,14 +37,16 @@
 - [YouTube](https://youtu.be/DNfQuOc3D0s)
 
 観たムービーをメモするiOSアプリです。字幕/吹き替えや使用したサービス、映画の感想など詳細に記録できます。Swift, Realm, Eurekaの勉強用と趣味用に個人で開発しました。
-  現在App Store公開中です。
+
+現在App Store公開中です。
 
 ### 九工大アプリPRポスター
 - [App Store](https://itunes.apple.com/jp/app//id1405622324?mt=8)
 - [Google Play Store](https://play.google.com/store/apps/details?id=com.planningdevgmail.kyutechapp2018&hl=ja&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)
 
 所属する学生団体[P&D](https://www.planningdev.com/)が運用している九工大生向けポータルアプリの学内用宣伝ポスターのデザインを担当しました。
-  よりインパクトを出すためのコピーの配置や、色合いの試行錯誤に苦労しました。
+
+よりインパクトを出すためのコピーの配置や、色合いの試行錯誤に苦労しました。
 
 
 
