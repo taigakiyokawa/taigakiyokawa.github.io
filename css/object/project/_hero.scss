@@ -1,9 +1,10 @@
 .p-hero {
-  height: 120Vh;
+  height: 100Vh;
+  margin-bottom: 20vh;
   position: relative;
   &__headline {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 0;
     right: 0;
   }
