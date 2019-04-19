@@ -16,6 +16,10 @@ a {
   &:visited {
     color: $accent;
   }
+  &:hover {
+    color: $text;
+    transition: 0.2s;
+  }
 }
 
 p, li {

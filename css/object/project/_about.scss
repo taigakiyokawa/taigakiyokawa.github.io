@@ -1,9 +1,13 @@
+@import "variable/_variables";
+
 .p-about {
+  border-top: solid 1px $accent;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 100%;
+  padding-top: 5vh;
   margin-bottom: 50vh;
   
   img {

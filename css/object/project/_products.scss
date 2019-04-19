@@ -1,13 +1,15 @@
+@import "variable/_variables";
+
 .p-products {
   width: 100%;
-
+  border-top: solid 1px $accent;
   &-item {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
-    margin-bottom: 30vh;
+    margin: 5vh 0 30vh;
 
     img.product {
       // padding: 24px;
